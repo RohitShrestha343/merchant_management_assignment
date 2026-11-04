@@ -1,0 +1,65 @@
+body {
+  background: #9ba8c3;
+  color: #243044;
+  font-size: 12px;
+}
+.page-shell {
+  min-height: 100vh;
+}
+button,
+.btn {
+  font-size: 12px !important;
+  padding: 5px 10px !important;
+  line-height: 1.4;
+  min-height: auto;
+}
+input,
+textarea,
+select,
+.form-control,
+.form-select {
+  font-size: 12px !important;
+  padding: 5px 10px !important;
+  line-height: 1.4;
+  min-height: auto;
+}
+.sidebar {
+  width: 230px;
+  min-height: calc(100vh - 56px);
+  background: #17243a;
+}
+.sidebar a {
+  color: #dbe5f3;
+  text-decoration: none;
+  display: block;
+  padding: 0.7rem 1rem;
+  border-radius: 0.4rem;
+}
+.sidebar a:hover,
+.sidebar a.active {
+  background: #2b3c59;
+  color: white;
+}
+.content-area {
+  min-width: 0;
+  flex: 1;
+}
+.card {
+  border: 0;
+  box-shadow: 0 2px 12px rgba(20, 35, 60, 0.06);
+}
+.form-label {
+  font-weight: 600;
+}
+.table th {
+  white-space: nowrap;
+}
+@media (max-width: 767px) {
+  .sidebar {
+    width: 100%;
+    min-height: auto;
+  }
+  .page-shell {
+    display: block !important;
+  }
+}
